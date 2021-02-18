@@ -7,9 +7,9 @@ Two algorithms are implemented for image classification:
 ## Usage
 Run ANN.py on CL with the following arguments:
 
---dataset: 'mnist' or 'iris' (default 'mnist') 
---alg: 'guesser', 'custom_net', or 'tf_net' (default 'custom_net'). 
---epochs: int (default 16)  
+--dataset: 'mnist' or 'iris' (default 'mnist')<br/>
+--alg: 'guesser', 'custom_net', or 'tf_net' (default 'custom_net')<br/> 
+--epochs: int (default 16)<br/>
 --minibatches: bool (default True). 
 --mbs: int (default 100). 
 --lr: float (default 5). 
