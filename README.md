@@ -1,8 +1,17 @@
 # ANN Image Classification
 
 Two algorithms are implemented for image classification: 
-1) ANN from scratch using numpy:
--f
- 
+1) ANN using numpy: features multiple layers, custom # of neurons/layer, multiple activation function (sigmoid, relu), mini-batch gradient descent.
+2) CNN using tensorflow: features multiple convolutional layers with dropout.
 
-2) CNN using tensorflow: 
+## Usage
+Run ANN.py on CL with the following arguments:
+
+--dataset: 'mnist' or 'iris' (default 'mnist')
+--alg: 'guesser', 'custom_net', or 'tf_net' (default 'custom_net')
+--epochs: int (default 16)
+--minibatches: bool (default True)
+--mbs: int (default 100)
+--lr: float (default 5)
+--act: 'sigmoid' or 'relu' (default 'sigmoid')
+--layers: list (default [50])
